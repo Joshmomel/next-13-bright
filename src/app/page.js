@@ -6,17 +6,6 @@ import Revealable from '../components/Revealable';
 function Home() {
   return (
     <main>
-      <h1>Introduction to Python</h1>
-      <h2>Variables and Basic Data Types</h2>
-      <p>
-        Python is a high-level, interpreted
-        programming language. In Python, you don't
-        need to specify the data type of a
-        variable when you declare it. Python
-        automatically determines the data type
-        based on the value you assign.
-      </p>
-
       <Revealable>
         <Code
           className="code-snippet"
@@ -24,44 +13,6 @@ function Home() {
           lang="py"
         >
           {FIRST_SNIPPET}
-        </Code>
-      </Revealable>
-
-      <h2>
-        Control Flow: Conditionals and Loops
-      </h2>
-      <p>
-        Python has standard control flow
-        structures like if statements, for and
-        while loops.
-      </p>
-
-      <Revealable>
-        <Code
-          className="code-snippet"
-          theme="dracula"
-          lang="py"
-        >
-          {SECOND_SNIPPET}
-        </Code>
-      </Revealable>
-
-      <h2>Functions and Basic Data Structures</h2>
-
-      <p>
-        In Python, you can define your own
-        functions using the def keyword. Python
-        also has built-in data structures like
-        lists and dictionaries.
-      </p>
-
-      <Revealable>
-        <Code
-          className="code-snippet"
-          theme="dracula"
-          lang="py"
-        >
-          {THIRD_SNIPPET}
         </Code>
       </Revealable>
     </main>
